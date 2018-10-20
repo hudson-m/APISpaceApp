@@ -6,17 +6,17 @@ b
 c
 '''
 
-# Funcao 1 #
-# Leitura dos arquivos de entrada
-# Pre-processamento (tratar dados vazios, por exemplo)
-# Separar dados para treino, teste e validacao (70, 15, 15)
-
-# Funcao 2 #
-# Criacao do modelo de classificacao (arvore de decisao)
-
-# Funcao 3 #
-# Criacao do arquivo de saida do programa
-
 if __name__ == "__main__":
-    print('ok')
+    from LeituraDados import LeituraDados
+    from ExportaResultados import ExportaResultados
+    from ModeloClassificador import ModeloClassificador
+
+    # Leitura dos arquivos de entrada  # Para o usuario, o local em que ele está é a entrada
+    DadosLidos = LeituraDados
+    # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
+    PlantinhaEscolhida = ModeloClassificador
+    # Criacao do modelo de classificacao (arvore de decisao)
+    GeraOutput = ExportaResultados
+
+    print('Término da simulação!')
 
