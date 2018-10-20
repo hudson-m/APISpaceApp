@@ -3,6 +3,7 @@
 class ModeloClassificador:
     def __init__(self):
         pass
+
     def ArvoreDecisao(self):
         return
 

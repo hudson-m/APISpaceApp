@@ -1,0 +1,22 @@
+Nome,Temp Min ,Temp Max,Tempo Min(Dias),Tempo Maximo(Dias),Exposicao a luz solar,Umidade relativa do ar (%)
+Abóbora,15,25,90,120,Full sun,40 a 80
+Couve-Flor,15,25,90,110,Full sun,80 a 95
+Ervilha,10,24,60,100,"Full sun, part sun",50 a 90
+Espinafre,15,25,60,80,Full sun,83
+Feijão-Vagem,15,25,60,70,-,75
+Gengibre,13,-,240,300,Full sun,80
+Melão,20,-,80,120,Full sun,85 a 95
+Milho verde,25,30,80,110,Full sun,60 a 78
+Moranga,15,25,120,150,Full sun,70
+Morango,15,25,70,80,Full sun,65 a 75
+Mostarda,15,25,45,50,Part shade,85 a 88
+Nabo,15,25,50,60,Full sun,95 ou mais
+Pepino,15,25,45,60,Full sun,95
+Pimentão,15,15,100,120,Full sun,60 a 75
+Repolho,15,25,90,110,Full sun,90 ou mais
+Rúcula,15,25,40,60,Full sun,80 a 90
+Salsa,-,20,60,70,"Full sun, part sun",95
+Alface,-,-,60,80,Part sun,90
+Batata,15,25,90,120,Full sun,50 a 85
+Batata-doce,-,-,120,150,Full sun,85
+Berinjela,-,-,100,120,Full sun,80

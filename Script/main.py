@@ -12,11 +12,11 @@ if __name__ == "__main__":
     from ModeloClassificador import ModeloClassificador
 
     # Leitura dos arquivos de entrada  # Para o usuario, o local em que ele está é a entrada
-    DadosLidos = LeituraDados
+    DadosLidos = LeituraDados()
     # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
-    PlantinhaEscolhida = ModeloClassificador
+    PlantinhaEscolhida = ModeloClassificador()
     # Criacao do modelo de classificacao (arvore de decisao)
-    GeraOutput = ExportaResultados
+    GeraOutput = ExportaResultados()
 
     print('Término da simulação!')
 
