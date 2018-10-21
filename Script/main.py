@@ -9,30 +9,30 @@ c
 if __name__ == "__main__":
     from LeituraDados import LeituraDados
     from FiltraBaseDadosTrain import FiltraBaseDadosTrain
-    from ExportaResultados import ExportaResultados
-    from ModeloClassificador import ModeloClassificador
     from AplicaDataAugmentation import AplicaDataAugmentation
+    from NormalizaDados import NormalizaDados
+    from ModeloClassificador import ModeloClassificador
+    from ExportaResultados import ExportaResultados
 
     NomeArquivoTrain = "RequisitosPlantinhas - Novo compilado.csv"
     NomeArquivoTest = "Test.csv"
     # Leitura dos arquivos de entrada
     # Para o usuario é algum local desejado
-    DicionarioDadosTrain, DadosTest = LeituraDados(NomeArquivoTrain, NomeArquivoTest)
+    DicionarioDadosTrain, DadosTest, ListaTemperaturas, ListaUmidades = LeituraDados(NomeArquivoTrain, NomeArquivoTest)
 
     # Filtra base de dados treino com base na violação ou não da temperatura ou humidade
     DicionarioDadosTrain = FiltraBaseDadosTrain(DicionarioDadosTrain, DadosTest)
 
     # Aumenta a base de dados de treino artificialmente
-    DicionarioDadosTrain = AplicaDataAugmentation(DicionarioDadosTrain)
+    DicionarioDadosTrainAumentado = AplicaDataAugmentation(DicionarioDadosTrain)
 
     # Normaliza os dados
-
+    DicionarioDadosTrainAumentado, DadosTest = NormalizaDados(DicionarioDadosTrainAumentado, DadosTest, ListaTemperaturas, ListaUmidades)
 
     # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
-    # PlantinhaEscolhida = ModeloClassificador()
-    # Criacao do modelo de classificacao (arvore de decisao)
+    # Criacao do modelo de classificacao (knn com um misto de arvore de decisao, considerando o que ja foi visto na etapa de filtragem)
+    PlantinhaEscolhida = ModeloClassificador()
+
     # GeraOutput = ExportaResultados()
 
     print('Término da simulação!')
-    print(DicionarioDadosTrain)
-    print(DadosTest)

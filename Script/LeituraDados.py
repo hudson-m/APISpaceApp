@@ -7,6 +7,10 @@
 def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
     import csv
     DicionarioDadosTrain = {}
+    DadosTest = []
+    ListaTemperaturas = []
+    ListaUmidades = []
+
     with open(NomeArquivoTrain, newline='') as ArquivoCSV:
         LeitorCSV = csv.reader(ArquivoCSV, delimiter=',')
         next(LeitorCSV)  # Pula a primeira linha, que eh o header
@@ -17,6 +21,11 @@ def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
             UmidadeRelativaMinima = float(Linha[3])
             UmidadeRelativaMaxima = float(Linha[4])
             DicionarioDadosTrain[NomeLabel] = [[TemperaturaMinima, TemperaturaMaxima], [UmidadeRelativaMinima, UmidadeRelativaMaxima]]
+            # Coleta tambem o maximo e minimo valor de cada feature
+            ListaTemperaturas.append(TemperaturaMinima)
+            ListaTemperaturas.append(TemperaturaMaxima)
+            ListaUmidades.append(UmidadeRelativaMinima)
+            ListaUmidades.append(UmidadeRelativaMaxima)
 
     with open(NomeArquivoTest, newline='') as ArquivoCSV:
         LeitorCSV = csv.reader(ArquivoCSV, delimiter=',')
@@ -26,4 +35,4 @@ def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
             UmidadeRelativa = float(Linha[7])
             DadosTest = [Temperatura, UmidadeRelativa]  # Estou criando assim pois é uma premissa que dados test será apenas  uma entrada
 
-    return DicionarioDadosTrain, DadosTest
+    return DicionarioDadosTrain, DadosTest, ListaTemperaturas, ListaUmidades
