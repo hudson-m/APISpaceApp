@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-Arquivo principal para o programa criado durante o hackathon Nasa SpaceApp
-Comentários dos autores
-a
-b
-c
+Arquivo principal para o programa criado durante o hackathon Nasa SpaceApp 2018
+Alan Naoto Tabata - 21.10.2018
 '''
 
 if __name__ == "__main__":

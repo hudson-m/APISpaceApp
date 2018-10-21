@@ -1,23 +1,23 @@
 -- Melhores a serem plantados --
-Morango
-Cafe
 Batata
 Abobora
 Ervilha
 
 -- Classes recusadas --
-Moranga
-Couve-Flor
-Feijao
-Feijao-Vagem
-Repolho
-Pepino
-Nabo
 Rucula
-Milho
 Pimentao
-Arroz
-Milho verde
+Feijao
+Nabo
+Pepino
 Mostarda
+Cafe
+Morango
+Repolho
+Arroz
+Milho
+Feijao-Vagem
+Couve-Flor
 Soja
+Moranga
 Espinafre
+Milho verde

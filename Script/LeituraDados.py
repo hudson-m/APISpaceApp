@@ -36,8 +36,8 @@ def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
         for Linha in LeitorCSV:
             # Essa linha acontece por terceiro
             if FlagzinhaColetaInfo:
-                Temperatura = float(Linha[6])
-                UmidadeRelativa = float(Linha[7])
+                Temperatura = float(Linha[5])
+                UmidadeRelativa = float(Linha[6])
                 DadosTest = [Temperatura, UmidadeRelativa]  # Estou criando assim pois é uma premissa que dados test será apenas  uma entrada
                 break
             #  Essa linha acontece por segundo

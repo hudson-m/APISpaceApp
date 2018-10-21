@@ -12,8 +12,10 @@ def ExportaResultados(ClassesRanqueadas, LabelsRecusadas):
 
     # Cria o arquivo txt com resultados de saida
     with open(os.path.join(DiretorioOutput, 'Resultados.txt'), 'w') as Arquivo:
+        print('Melhor(es) semente(s) para plantio nessa região:')
         Arquivo.write('-- Melhores a serem plantados --\n')
         for Classe in ClassesRanqueadas:
+            print(Classe[0])
             Arquivo.write(Classe[0] + '\n')
         Arquivo.write('\n-- Classes recusadas --\n')
         for Classe in LabelsRecusadas:

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="17ade04b-720b-4277-aa85-ad3ebbb9f39a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/ExportaResultados.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/ExportaResultados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/Input/JupterTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Script/Input/JupterTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/Input/RequisitosPlantinhas - Novo compilado.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Script/Input/RequisitosPlantinhas - Novo compilado.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/LeituraDados.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/LeituraDados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script/Output/Resultados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Script/Output/Resultados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/main.py" afterDir="false" />
     </list>
@@ -17,47 +21,78 @@
     <session id="454870243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="51" />
+          <entry key="py" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="51" />
+          <entry key="Python" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="py" value="10293" />
+          <entry key="py" value="10654" />
           <entry key="txt" value="262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="262" />
-          <entry key="Python" value="10299" />
+          <entry key="Python" value="10660" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Script/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="233">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Script/LeituraDados.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/ExportaResultados.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+              <folding>
+                <marker date="1540130912215" expanded="true" signature="58:971" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,13 +134,13 @@
         <option value="$PROJECT_DIR$/ExportaResultados.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$USER_HOME$/Downloads/exemplo.py" />
-        <option value="$PROJECT_DIR$/Script/AplicaDataAugmentation.py" />
         <option value="$PROJECT_DIR$/Script/NormalizaDados.py" />
-        <option value="$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py" />
         <option value="$PROJECT_DIR$/Script/ModeloClassificador.py" />
+        <option value="$PROJECT_DIR$/Script/main.py" />
+        <option value="$PROJECT_DIR$/Script/AplicaDataAugmentation.py" />
+        <option value="$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py" />
         <option value="$PROJECT_DIR$/Script/ExportaResultados.py" />
         <option value="$PROJECT_DIR$/Script/LeituraDados.py" />
-        <option value="$PROJECT_DIR$/Script/main.py" />
       </list>
     </option>
   </component>
@@ -123,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +174,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,12 +340,12 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19628252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19628252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5176282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,17 +365,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arquivo python principal para o nosso programa. No fim, ele será o único arquivo que precisaremos rodar. Ele vai puxar as outras funções PY em outros arquivos." />
     <option name="LAST_COMMIT_MESSAGE" value="Arquivo python principal para o nosso programa. No fim, ele será o único arquivo que precisaremos rodar. Ele vai puxar as outras funções PY em outros arquivos." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Script/LeituraDados.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ExportaResultados.py" />
@@ -370,50 +394,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Script/AplicaDataAugmentation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/ModeloClassificador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="20" column="130" selection-start-line="20" selection-start-column="130" selection-end-line="20" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/ExportaResultados.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="207">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Script/NormalizaDados.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="230">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1540115418973" expanded="true" signature="96:97" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/LeituraDados.py">
+    <entry file="file://$PROJECT_DIR$/Script/ModeloClassificador.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="23">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1540117824063" expanded="true" signature="92:189" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+          <folding>
+            <marker date="1540130912215" expanded="true" signature="58:971" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/ExportaResultados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Script/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="233">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/LeituraDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
         </state>
       </provider>
     </entry>
