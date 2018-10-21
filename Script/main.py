@@ -11,6 +11,7 @@ if __name__ == "__main__":
     from FiltraBaseDadosTrain import FiltraBaseDadosTrain
     from ExportaResultados import ExportaResultados
     from ModeloClassificador import ModeloClassificador
+    from AplicaDataAugmentation import AplicaDataAugmentation
 
     NomeArquivoTrain = "RequisitosPlantinhas - Novo compilado.csv"
     NomeArquivoTest = "Test.csv"
@@ -21,7 +22,10 @@ if __name__ == "__main__":
     # Filtra base de dados treino com base na violação ou não da temperatura ou humidade
     DicionarioDadosTrain = FiltraBaseDadosTrain(DicionarioDadosTrain, DadosTest)
 
-    # Aplica pré-processamento sobre os dados
+    # Aumenta a base de dados de treino artificialmente
+    DicionarioDadosTrain = AplicaDataAugmentation(DicionarioDadosTrain)
+
+    # Normaliza os dados
 
 
     # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
