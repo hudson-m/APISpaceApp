@@ -1,0 +1,6 @@
+Nome,Temp Min (ºC),Tem Max (ºC),Umidade relativa min (%),Umidade relativa max (%),Radiação solar (W/m²),Radiação solar 2,Pluviosidade minima (mm),Pluviosidade maxima (mm),PH min do solo,PH max do solo
+Arroz,20,27,100,100,,,115,300,5.5,6.5
+Café,20,27,70,90,,,100,200,4.61,7.69
+Feijão,18,24,16.6,35.2,150 até 250,Luz solar direta,600,650,5.8,6.5
+Milho,21,27,60,78,,,350,500,6.0,7.2
+Soja,15,21,12,15,,,500,600,5.2,6.3
