@@ -14,6 +14,6 @@ def AplicaDataAugmentation(DicionarioDadosTrain):
         for i in ListaTemperatura:
             for j in ListaUmidade:
                 DicionarioAumentadoTrain[Label].append([i, j])
-
+    #comentario
     return DicionarioAumentadoTrain
 
