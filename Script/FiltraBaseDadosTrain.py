@@ -1,6 +1,7 @@
 def FiltraBaseDadosTrain(DicionarioDadosTrain, DadosTest):
     from copy import deepcopy
     IndicaProblema = ['Temperatura', 'Umidade']
+    LabelsRecusadas = []
     NovoDicionarioDadosTrain = deepcopy(DicionarioDadosTrain)
     for Label in DicionarioDadosTrain:
         for IndiceTemperaturaOuUmidade, Feature in enumerate(DadosTest):
@@ -10,6 +11,7 @@ def FiltraBaseDadosTrain(DicionarioDadosTrain, DadosTest):
             if Feature < RestricaoInferior or Feature > RestricaoSuperior:
                 print(Label, 'teve o indicador de', IndicaProblema[IndiceTemperaturaOuUmidade], 'violado.')
                 NovoDicionarioDadosTrain.pop(Label)
+                LabelsRecusadas.append(Label)
                 break
 
-    return NovoDicionarioDadosTrain
+    return NovoDicionarioDadosTrain, LabelsRecusadas

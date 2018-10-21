@@ -23,7 +23,7 @@ if __name__ == "__main__":
     DicionarioDadosTrain, DadosTest, ListaTemperaturas, ListaUmidades = LeituraDados(NomeArquivoTrain, NomeArquivoTest)
 
     # Filtra base de dados treino com base na violação ou não da temperatura ou humidade
-    DicionarioDadosTrain = FiltraBaseDadosTrain(DicionarioDadosTrain, DadosTest)
+    DicionarioDadosTrain, LabelsRecusadas = FiltraBaseDadosTrain(DicionarioDadosTrain, DadosTest)
 
     # Aumenta a base de dados de treino artificialmente
     DicionarioDadosTrainAumentado = AplicaDataAugmentation(DicionarioDadosTrain)
@@ -36,6 +36,6 @@ if __name__ == "__main__":
     ClassesRanqueadas = Classificador.KNN()
 
     # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
-    GeraOutput = ExportaResultados()
-
+    GeraOutput = ExportaResultados(ClassesRanqueadas, LabelsRecusadas)
+    
     print('Término da simulação!')
