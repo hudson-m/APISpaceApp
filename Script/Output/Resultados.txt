@@ -6,18 +6,18 @@ Couve-Flor
 Ervilha
 
 -- Classes recusadas --
-Milho
-Milho verde
-Soja
-Abobora
-Feijao-Vagem
-Nabo
-Repolho
-Feijao
 Morango
-Pimentao
-Pepino
+Nabo
 Batata
+Pimentao
+Milho verde
+Pepino
+Feijao
+Milho
+Repolho
+Abobora
+Moranga
+Soja
 Espinafre
 Arroz
-Moranga
+Feijao-Vagem

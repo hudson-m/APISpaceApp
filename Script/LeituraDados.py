@@ -6,12 +6,13 @@
 
 def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
     import csv
+    import os
     DicionarioDadosTrain = {}
     DadosTest = []
     ListaTemperaturas = []
     ListaUmidades = []
 
-    with open(NomeArquivoTrain, newline='') as ArquivoCSV:
+    with open(os.path.join('Input', NomeArquivoTrain), newline='') as ArquivoCSV:
         LeitorCSV = csv.reader(ArquivoCSV, delimiter=',')
         next(LeitorCSV)  # Pula a primeira linha, que eh o header
         for Linha in LeitorCSV:
@@ -27,7 +28,7 @@ def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
             ListaUmidades.append(UmidadeRelativaMinima)
             ListaUmidades.append(UmidadeRelativaMaxima)
 
-    with open(NomeArquivoTest, newline='') as ArquivoCSV:
+    with open(os.path.join('Input',NomeArquivoTest), newline='') as ArquivoCSV:
         LeitorCSV = csv.reader(ArquivoCSV, delimiter=',')
         next(LeitorCSV)  # Pula a primeira linha, que eh o header
         for Linha in LeitorCSV:

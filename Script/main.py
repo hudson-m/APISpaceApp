@@ -37,5 +37,5 @@ if __name__ == "__main__":
 
     # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
     GeraOutput = ExportaResultados(ClassesRanqueadas, LabelsRecusadas)
-    
+
     print('Término da simulação!')

@@ -1,0 +1,15 @@
+-BEGIN HEADER-
+NASA/POWER SRB/FLASHFlux/MERRA2/GEOS 5.12.4 (FP-IT) 0.5 x 0.5 Degree Daily Averaged Data 
+Dates (month/day/year): 10/20/2018 through 10/21/2018 
+Location: Latitude  -25.4314   Longitude -49.259 
+Elevation from MERRA-2: Average for 1/2x1/2 degree lat/lon region = 789.05 meters   Site = na 
+Climate zone: na (reference Briggs et al: http://www.energycodes.gov) 
+Value for missing model data cannot be computed or out of model availability range: -999 
+Parameter(s): 
+RH2M MERRA2 1/2x1/2 Relative Humidity at 2 Meters (%) 
+T2M MERRA2 1/2x1/2 Temperature at 2 Meters (C) 
+KT SRB/FLASHFlux 1/2x1/2 Insolation Clearness Index (dimensionless) 
+-END HEADER-
+LAT,LON,YEAR,MO,DY,KT,T2M,RH2M
+-25.43139,-49.25899,2018,10,20,-999,-999,-999
+-25.43139,-49.25899,2018,10,21,-999,-999,-999
