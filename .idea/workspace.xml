@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17ade04b-720b-4277-aa85-ad3ebbb9f39a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Script/Input/JupterTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Script/Input/JupterTest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script/LeituraDados.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/LeituraDados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/Output/Resultados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Script/Output/Resultados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +17,13 @@
     <session id="454870243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,14 +39,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="py" value="10150" />
+          <entry key="py" value="10293" />
           <entry key="txt" value="262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="262" />
-          <entry key="Python" value="10156" />
+          <entry key="Python" value="10299" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Script/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="170">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -102,8 +104,8 @@
         <option value="$PROJECT_DIR$/Script/FiltraBaseDadosTrain.py" />
         <option value="$PROJECT_DIR$/Script/ModeloClassificador.py" />
         <option value="$PROJECT_DIR$/Script/ExportaResultados.py" />
-        <option value="$PROJECT_DIR$/Script/main.py" />
         <option value="$PROJECT_DIR$/Script/LeituraDados.py" />
+        <option value="$PROJECT_DIR$/Script/main.py" />
       </list>
     </option>
   </component>
@@ -121,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +140,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,8 +310,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5176282" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32852563" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5176282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,9 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#38#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1540113152072" expanded="true" signature="50:790" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,9 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <marker date="1540117058834" expanded="true" signature="58:836" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,9 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="20" column="130" selection-start-line="20" selection-start-column="130" selection-end-line="20" selection-end-column="130" />
-          <folding>
-            <marker date="1540117824063" expanded="true" signature="92:189" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -410,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1540115418973" expanded="true" signature="96:97" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Script/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="170">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>

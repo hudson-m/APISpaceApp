@@ -6,18 +6,18 @@ Abobora
 Ervilha
 
 -- Classes recusadas --
-Feijao
-Couve-Flor
-Feijao-Vagem
-Pepino
-Soja
-Repolho
-Arroz
-Milho
-Milho verde
-Rucula
-Mostarda
-Nabo
 Moranga
+Couve-Flor
+Feijao
+Feijao-Vagem
+Repolho
+Pepino
+Nabo
+Rucula
+Milho
 Pimentao
+Arroz
+Milho verde
+Mostarda
+Soja
 Espinafre

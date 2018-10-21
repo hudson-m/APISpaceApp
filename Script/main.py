@@ -18,7 +18,8 @@ if __name__ == "__main__":
 
     NomeArquivoTrain = "RequisitosPlantinhas - Novo compilado.csv"
     # NomeArquivoTest = "Test.csv"
-    NomeArquivoTest= 'JupterTest.csv'
+    NomeArquivoTest = 'JupterTest.csv'
+    NomeArquivoTest = input('Enter the name of the file you want to evaluate (a sample file is JupterTest.csv): \n')
     # Leitura dos arquivos de entrada
     # Para o usuario é algum local desejado
     DicionarioDadosTrain, DadosTest, ListaTemperaturas, ListaUmidades = LeituraDados(NomeArquivoTrain, NomeArquivoTest)
