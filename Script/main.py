@@ -17,7 +17,8 @@ if __name__ == "__main__":
     from ExportaResultados import ExportaResultados
 
     NomeArquivoTrain = "RequisitosPlantinhas - Novo compilado.csv"
-    NomeArquivoTest = "Test.csv"
+    # NomeArquivoTest = "Test.csv"
+    NomeArquivoTest= 'JupterTest.csv'
     # Leitura dos arquivos de entrada
     # Para o usuario é algum local desejado
     DicionarioDadosTrain, DadosTest, ListaTemperaturas, ListaUmidades = LeituraDados(NomeArquivoTrain, NomeArquivoTest)

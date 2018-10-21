@@ -11,6 +11,8 @@ def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
     DadosTest = []
     ListaTemperaturas = []
     ListaUmidades = []
+    FlagzinhaColetaInfo = False
+    FlagzinhaPegandoHeader = False
 
     with open(os.path.join('Input', NomeArquivoTrain), newline='') as ArquivoCSV:
         LeitorCSV = csv.reader(ArquivoCSV, delimiter=',')
@@ -28,12 +30,22 @@ def LeituraDados(NomeArquivoTrain, NomeArquivoTest):
             ListaUmidades.append(UmidadeRelativaMinima)
             ListaUmidades.append(UmidadeRelativaMaxima)
 
-    with open(os.path.join('Input',NomeArquivoTest), newline='') as ArquivoCSV:
+    # Dados meterologicos aqui
+    with open(os.path.join('Input', NomeArquivoTest), newline='') as ArquivoCSV:
         LeitorCSV = csv.reader(ArquivoCSV, delimiter=',')
-        next(LeitorCSV)  # Pula a primeira linha, que eh o header
         for Linha in LeitorCSV:
-            Temperatura = float(Linha[6])
-            UmidadeRelativa = float(Linha[7])
-            DadosTest = [Temperatura, UmidadeRelativa]  # Estou criando assim pois é uma premissa que dados test será apenas  uma entrada
+            # Essa linha acontece por terceiro
+            if FlagzinhaColetaInfo:
+                Temperatura = float(Linha[6])
+                UmidadeRelativa = float(Linha[7])
+                DadosTest = [Temperatura, UmidadeRelativa]  # Estou criando assim pois é uma premissa que dados test será apenas  uma entrada
+                break
+            #  Essa linha acontece por segundo
+            if FlagzinhaPegandoHeader:
+                FlagzinhaColetaInfo = True
+
+            #  Primeiro acontece essa condicao
+            if '-END HEADER-' in Linha:
+                FlagzinhaPegandoHeader = True
 
     return DicionarioDadosTrain, DadosTest, ListaTemperaturas, ListaUmidades
