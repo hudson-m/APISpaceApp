@@ -1,5 +1,7 @@
 # APISpaceApp
-The Land Where Displaced People Settle
+This code is part of the hackathon challenge at https://2018.spaceappschallenge.org/, with the theme "The Land Where Displaced People Settle" being chosen.
+Group name: Ceres
+Project name: Ceres
 
 Code in Python 3.5.2
 
