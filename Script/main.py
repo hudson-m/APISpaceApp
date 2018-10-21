@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 '''
 Arquivo principal para o programa criado durante o hackathon Nasa SpaceApp
 Comentários dos autores
@@ -29,10 +31,11 @@ if __name__ == "__main__":
     # Normaliza os dados
     DicionarioDadosTrainAumentado, DadosTest = NormalizaDados(DicionarioDadosTrainAumentado, DadosTest, ListaTemperaturas, ListaUmidades)
 
-    # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
     # Criacao do modelo de classificacao (knn com um misto de arvore de decisao, considerando o que ja foi visto na etapa de filtragem)
-    PlantinhaEscolhida = ModeloClassificador()
+    Classificador = ModeloClassificador(DicionarioDadosTrainAumentado, DadosTest)
+    ClassesRanqueadas = Classificador.KNN()
 
-    # GeraOutput = ExportaResultados()
+    # Criacao do arquivo de saida do programa  # Para o usuário, uma lista de plantas ranqueadas é a saída
+    GeraOutput = ExportaResultados()
 
     print('Término da simulação!')

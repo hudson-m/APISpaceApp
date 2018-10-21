@@ -11,6 +11,6 @@ def NormalizaDados(DicionarioDadosTrainAumentado, DadosTest, ListaTemperaturas, 
             DicionarioDadosTrainAumentado[Label][VetorFeature][1] = (DicionarioDadosTrainAumentado[Label][VetorFeature][1] - UmidadeMinima) / (UmidadeMaxima - UmidadeMinima)
 
     DadosTest[0] = (DadosTest[0] - TemperaturaMinima) / (TemperaturaMaxima - TemperaturaMinima)
-    DadosTest[1] = (DadosTest[1] - UmidadeMinima) / (TemperaturaMaxima - TemperaturaMinima)
+    DadosTest[1] = (DadosTest[1] - UmidadeMinima) / (UmidadeMaxima - UmidadeMinima)
 
     return DicionarioDadosTrainAumentado, DadosTest

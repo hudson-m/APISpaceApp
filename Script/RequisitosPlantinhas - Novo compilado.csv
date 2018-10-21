@@ -1,21 +1,21 @@
 Nome,Tem Min,Tem Max,Umidade relativa min,Umidade relativa max
 Arroz,20,27,100,100
-Café,20,27,70,90
-Feijão,18,24,16.6,35.2
+Cafe,20,27,70,90
+Feijao,18,24,16.6,35.2
 Milho,21,27,60,78
 Soja,15,21,12,15
 Ervilha,10,24,50,90
-Pimentão,15,15,60,75
-Abóbora,15,25,40,80
+Pimentao,15,15,60,75
+Abobora,15,25,40,80
 Couve-Flor,15,25,80,95
 Espinafre,15,25,83,83
-Feijão-Vagem,15,25,75,75
+Feijao-Vagem,15,25,75,75
 Moranga,15,25,70,70
 Morango,15,25,65,75
 Mostarda,15,25,85,88
 Nabo,15,25,95,99
 Pepino,15,25,95,95
 Repolho,15,25,90,99
-Rúcula,15,25,80,90
+Rucula,15,25,80,90
 Batata,15,25,50,85
 Milho verde,25,30,60,78
