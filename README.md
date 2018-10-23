@@ -8,7 +8,7 @@ Project name: Ceres
 Code in Python 3.5.2
 
 # Additional required packages:
-none. Every package used were the base ones.
+None. Only python base packages were used.
 
 # How to run
 Download data from any location at https://power.larc.nasa.gov/data-access-viewer/, select markers "relative humidity" and "temperature  at 2m", and leave it at /Input/ directory.
